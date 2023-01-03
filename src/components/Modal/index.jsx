@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../Button";
 import styles from "./styles";
 
 export const Modal = ({ handleStatus, text }) => {
@@ -7,7 +8,7 @@ export const Modal = ({ handleStatus, text }) => {
             <styles.Modal>
                 <h2>Aviso</h2>
                 <p>{text}</p>
-                <button onClick={handleStatus}>Ok</button>
+                <Button onClick={handleStatus} text="Ok" type="button" />
             </styles.Modal>
         </styles.Container>
     );

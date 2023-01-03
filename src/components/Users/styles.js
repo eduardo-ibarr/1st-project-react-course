@@ -6,13 +6,13 @@ const Container = styled.div`
     border-radius: 5px;
     padding: 10px;
     margin-top: 50px;
+    background-color: white;
 `;
 
 const User = styled.div`
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px solid gray;
+    margin: 10px 0 10px 0;
     border-radius: 5px;
+    border: 1px solid #c8c5cc;
 
     p {
         margin-left: 10px;

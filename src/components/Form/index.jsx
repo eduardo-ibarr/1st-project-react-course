@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from "../Button";
 import styles from "./styles";
 
 export const Form = ({ setUsers, setStatus }) => {
@@ -70,9 +71,8 @@ export const Form = ({ setUsers, setStatus }) => {
                 <h3>Idade</h3>
                 <input type="text" value={age} onChange={handleChangeAge} />
             </styles.Input>
-            <styles.ButtonSubmit type="submit">
-                Adicionar Usuário
-            </styles.ButtonSubmit>
+            <br />
+            <Button type="submit" text="Adicionar Usuário" />
         </styles.Form>
     );
 };

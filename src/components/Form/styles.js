@@ -7,7 +7,11 @@ const Input = styled.div`
     }
 
     input {
-        width: 98.5%;
+        width: 97.5%;
+        line-height: 2rem;
+        border-radius: 5px;
+        border: 1px solid #c8c5cc;
+        padding-left: 10px;
     }
 `;
 
@@ -21,6 +25,7 @@ const Form = styled.form`
     border-radius: 5px;
     padding: 10px;
     width: 100%;
+    background-color: white;
 `;
 
 const styles = {
